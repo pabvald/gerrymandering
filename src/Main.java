@@ -8,15 +8,15 @@ import java.util.ArrayList;
  * Main<br>
  * @author pabvald
  * 
- * This class provides the interface needed to use the Gerrymandering class. 
+ * This class provides a text interface needed to use the Gerrymandering class. 
  * The configuration of the precincts must be written in a text file
  * with the following structure:<br>
  *      - Number of precincts, n. (Line 1)<br>
  *      - Popullation of each precinct, m. (Line 2)<br>
  *      - Votes to party A in each of the n precincts, n integer values separated by spaces. (Line 3) <br>
  *      - Adjacencies matrix, an n x n matrix. Each row of the matrix must be written in a new line.
- * Each column must be separated by one space. The position [i][j] will be a 1 if the precinct i is 
- * adjacent to precint j, or a 0 if precinct i is NOT adjacent to precinct j.
+ *        Each column must be separated by one space. The position [i][j] will be a 1 if the precinct i is 
+ *        adjacent to precint j, or a 0 if precinct i is NOT adjacent to precinct j.
  * 
  */
 public class Main {
